@@ -82,7 +82,7 @@ div.textarea {
     color: rgb(85, 85, 85);
     display: block;
     flex-direction: column;
-    font-family: Lato, sans-serif;
+    font-family:monospace;
     font-size: 18px;
     font-weight: normal;
     height: 64px;
@@ -110,7 +110,6 @@ div.textarea {
     vertical-align: middle;
     white-space: pre-wrap;
     width: 100%;
-    word-spacing: 3px;
     word-wrap: break-word;
     writing-mode: lr-tb;
 }
@@ -141,4 +140,8 @@ span.s_wrong {
     padding-top: 20px;
     margin-top: 100px;
     margin-bottom: 50px;
+}
+
+body, div{
+    font-family:monospace;
 }
